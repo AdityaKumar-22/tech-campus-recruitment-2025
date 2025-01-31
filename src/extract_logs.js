@@ -54,6 +54,6 @@ if (args.length !== 1) {
 }
 
 const targetDate = args[0];
-const logFilePath = path.join(__dirname, "test_logs.log"); // Adjusted to look inside src/
+const logFilePath = path.join(__dirname, "logs_2024.log"); // Adjusted to look inside src/
 
 extractLogs(logFilePath, targetDate);
